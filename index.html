@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shower Presentation Engine</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen-16x10.css">
+</head>
+<body class="shower list">
+	<header class="caption">
+		<h1>Искусственный интеллект</h1>
+		<p>Уляшев Артур</p>
+	</header>
+	<section class="slide" id="cover">
+		<h2>Презентация по теме "Искусственный интеллект"</h2>
+		<p>Автор <a href="https://vk.com/id140430241">Уляшев Артур</a></p>
+		<img src="pictures/ai.jpg" alt="" class="cover">
+		<!--
+			To apply styles to the certain slides
+			set slide ID to get needed elements
+			-->
+		<style>
+			#cover h2 {
+				margin:30px 0 0;
+				color:#FFF;
+				text-align:center;
+				font-size:70px;
+				}
+			#cover p {
+				margin:10px 0 0;
+				text-align:center;
+				color:#FFF;
+				font-style:italic;
+				font-size:20px;
+				}
+				#cover p a {
+					color:#FFF;
+					}
+		</style>
+	</section>
+	<section class="slide">
+		<h2>Подходы и направления</h2>
+		<ol>
+			<li>Тест Тьюринга и интуитивный подход</li>
+			<li>Символьный подход</li>
+			<li>Логический подход</li>
+			<li>Агентно-ориентированный подход</li>
+			<li>Гибридный подход</li>
+		</ol>
+		
+	</section>
+	<section class="slide">
+		<h2>Логический подход</h2>
+		<p><strong>Логический подход</strong> к созданию систем искусственного интеллекта основан на моделировании рассуждений. Теоретической основой служит логика.
+Логический подход может быть проиллюстрирован применением для этих целей языка и системы <strong>логического программирования</strong> Пролог. Программы, записанные на языке Пролог, представляют наборы фактов и правил логического вывода без жесткого задания алгоритма как последовательности действий, приводящих к необходимому результату.</p>
+	</section>
+	<section class="slide">
+		<h2>Логическое программирование</h2>
+		<p class="double"><strong>Логи́ческое программи́рование</strong> — парадигма программирования, основанная на автоматическом доказательстве теорем, а также раздел дискретной математики, изучающий принципы логического вывода информации на основе заданных фактов и правил вывода. Логическое программирование основано на теории и аппарате математической логики с использованием математических принципов резолюций. Самым известным языком логического программирования является Prolog.</p>
+	</section>
+	<section class="slide">
+		<h2>Языки программирования(и их детища)</h2>
+		<ol>
+
+			<li class="next">Planner
+				<ul>
+					<li class="next">QA-4</li>
+					<li class="next">Popler</li>
+					<li class="next">Conniver</li>
+					<li class="next">QLISP</li>
+				</ul>
+			</li>
+			<li class="next">Prolog
+				<ul>
+					<li class="next">Mercury</li>
+					<li class="next">Visual Prolog</li>
+					<li class="next">Oz и Fril</li>
+					
+				</ul>
+			</li>
+		</ol>
+	</section>
+	<section class="slide">
+		<h2>Пример кода на языке Prolog</h2>
+		<pre>
+			<code class="mark">?- </code>
+			<code>write('Hello world!'), nl.</code>
+			<code>Hello world!</code>
+			<code>true.</code>
+			<code class="mark">?-</code>
+		</pre>
+	</section>
+	<section class="slide">
+		<h2>Видео</h2>
+		<iframe width="600" height="340" src="https://www.youtube.com/embed/SPs_VCw69lQ" frameborder="0" allowfullscreen></iframe>
+	</section>
+	
+	
+	</section>
+	<section class="slide grid">
+		<center><h2>Спасибо за внимание</h2></center>
+	</section>
+
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	<div class="progress"></div>
+	<script src="shower/shower.min.js"></script>
+	<!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+	<!-- Photos by John Carey, fiftyfootshadows.net -->
+</body>
+</html>
